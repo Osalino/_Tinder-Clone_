@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+div.backgorund{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/bgimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+div.main{
+    height: 480px;
+    width: 380px;
+    margin: 6% auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    overflow: hidden;
+}
+div.botton-box{
+    width: 220px;
+    margin: auto;
+    position: relative;
+    box-shadow :0 0 20px 9px rgba(23, 154, 242, 0.201) ;
+    border-radius: 30px;
+    
+}
+.toggle-btn{
+    padding:10px 30px;
+    cursor:pointer ;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-weight: 500;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(23, 154, 242), rgb(0, 120, 199));
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group{
+    top: 180%;
+    width: 280px;
+    transition: .5s;
+    margin: 40px auto;
+} 
+.input-group{
+    top: 180%;
+    width: 280px;
+    transition: .5s;
+    margin: 40px auto;
+} 
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 0px;
+    border-bottom: 1px solid black ;
+    outline: none ;
+    background: transparent ;
+    
+
+}
+.checkbox{
+    margin: 10px 5px  ;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    display: block;
+    margin:20px auto;
+    background: linear-gradient(to right, rgb(23, 154, 242), rgb(0, 120, 199));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+ 
+ .image-box{
+    margin: 30px auto;
+    text-align: center
+    
+ }
+ 
+ .socials{
+    height: 28px;
+    padding-left: 5px;
+    margin: 0px ;
+    display: inline;
+ }
+
+.terms {
+    text-align: center;
+    
+ }
+
+ .highlight {
+    color: rgb(2, 70, 181);
+    cursor: pointer;
+ }
+
+ #login{
+    left: 0px;
+    position: relative;
+    top: 0;
+ }
+ #register{
+    position: absolute;
+    left: 450px;
+    top: 7em;
+ }
+ 
